@@ -1,12 +1,9 @@
 import React from "react";
+import ProfileImg from "../image/unnamed.png";
 export default function Info() {
   return (
     <>
-      <img
-        src="../image/unnamed.png"
-        alt="profile-pic"
-        className="profile-pic"
-      />
+      <img src={ProfileImg} alt="profile-img" className="profile-pic" />
       <div className="info container">
         <p className="info--name">Rojan Rai</p>
         <p className="info--post">Junior Front End Developer</p>
